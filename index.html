@@ -1,61 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>JNTUA B.Tech Results (CSE 2021–2025)</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JNTUA Results(R23) | CSE 2023–27</title>
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      padding: 20px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #f0f4ff, #e2ecff);
+      padding: 0;
+      color: #222;
     }
-    h1 {
-      color: #2c3e50;
+
+    header {
+      background: linear-gradient(to right, #8c09f0, hsl(268, 81%, 52%), #623c95);
+      color: rgb(246, 241, 241);
+      text-align: center;
+      padding: 40px 20px 30px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
     }
+
+    header h1 {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
     .semester {
-      background: white;
-      padding: 15px;
-      margin: 15px 0;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      background: rgba(255, 255, 255, 0.7);
+      backdrop-filter: blur(12px);
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 16px;
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s;
     }
+
+    .semester:hover {
+      transform: scale(1.02);
+    }
+
+    .semester h2 {
+      border-bottom: 2px solid #6f15c9;
+      margin-bottom: 12px;
+      padding-bottom: 6px;
+      font-size: 20px;
+      color: #0c0c0c;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    li {
+      margin: 10px 0;
+    }
+
     a {
       text-decoration: none;
-      color: #2980b9;
+      color: #111112;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      margin: 40px 0;
+      font-size: 14px;
+      color: #666;
     }
   </style>
 </head>
 <body>
-  <h1>JNTUA B.Tech Results</h1>
-  <h3>CSE Department | Batch: 2023–2027</h3>
 
-  <div class="semester">
-    <h2>Semester 1-1</h2>
-    <ul>
-      <li><a href="https://share.google/5pvubhxlr5JK8HCXO" target="_blank">Result Link - Regular Examination, January 2024</a></li>
-    </ul>
-  </div>
+  <header>
+    <h1>JNTUA B.Tech Results</h1>
+    <p>CSE Department | Batch 2023–2027</p>
+  </header>
 
-  <div class="semester">
-    <h2>Semester 1-2</h2>
-    <ul>
-      <li><a href="https://share.google/xSMCEkz8HrHqA7eVD">Result Link -Regular Examination, June/July 2024 </a></li>
-    </ul>
-  </div>
+  <main>
 
-  <div class="semester">
-    <h2>Semester 2-1</h2>
-    <ul>
-      <li><a href="https://share.google/Lp4s4ta9b7vSKwLxS">Result Link -Regular Examination, November 2024</a></li>
-    </ul>
-  </div>
+    <div class="semester">
+      <h2>Semester 1-1</h2>
+      <ul>
+        <li><a href="https://share.google/5pvubhxlr5JK8HCXO" target="_blank">Result - Regular Examination, January 2024</a></li>
+      </ul>
+    </div>
 
-  <div class="semester">
-    <h2>Semester 2-2</h2>
-    <ul>
-      <li><a href="https://share.google/NX0Aq5GdM4vVQuLcg">Result -Regular Examination, April/May 2025</a></li>
-    </ul>
-  </div>
+    <div class="semester">
+      <h2>Semester 1-2</h2>
+      <ul>
+        <li><a href="https://share.google/xSMCEkz8HrHqA7eVD" target="_blank">Result - Regular Examination, June/July 2024 </a></li>
+      </ul>
+    </div>
+
+    <div class="semester">
+      <h2>Semester 2-1</h2>
+      <ul>
+        <li><a href="https://share.google/Lp4s4ta9b7vSKwLxS">Result Regular Examination, November 2024</a></li>
+      </ul>
+    </div>
+
+    <div class="semester">
+      <h2>Semester 2-2</h2>
+      <ul>
+        <li><a href="https://share.google/NX0Aq5GdM4vVQuLcg">Result Regular Examination, April/May 2025</a></li>
+      </ul>
+    </div>
+
+    <!-- Add more semesters as needed -->
+
+  </main>
+
+  <footer>
+    Made with ❤ by Class Representative(CR) | JNTUA CSE 2023–27
+  </footer>
 
 </body>
 </html>
