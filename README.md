@@ -1,3 +1,3 @@
 # Btech-Results
 <br>
--By Rayyan
+-By Shaik Mohammad Rayyan
